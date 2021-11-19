@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+
+header {
+    width: 100%;
+    height: 95vh; 
+    display: flex;
+    justify-content: center;
+}
+
+#banner {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+#header-container {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu {
+    width: 100%;
+    height: 10vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#right {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+#left {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s color ease-out;
+    transition: 0.3s ease-out;
+}
+.a-menu:hover {
+    border-bottom: 2px solid rgb(233, 199, 4);
+    padding-bottom: 4px;
+    color: rgb(233, 199, 4);
+}
+#center {
+    width: 50%;
+    height: 65vh;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#CT {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    color: white;
+    font-weight: 400;
+}
+#mogo {
+    width: 90%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 125px;
+    text-align: center;
+    color: white;
+}
+#line-1 {
+    width: 7%;
+    height: 0px;
+    margin: 30px;
+    border: 1px solid white;
+}
+#LM {
+    width: 20%;
+    height: 7%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid white;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/* main */
+
+main {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* > > > > > >main-container< < < < < <  */
+
+.main-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*> > > > > > > > > > > > > > >first block< < < < < < < < < < < < < < <*/
+
+/* ONE */
+
+#one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* A */
+
+#A {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#A-text {
+    width: 350px;
+    height: 80px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.s1 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+.s2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.line-2 {
+    width: 65px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 1px;
+    border: 1px solid rgb(233, 36, 10);
+}
+#text-1 {
+    width: 90%;
+    height: 60px;
+    text-align: center;
+}
+#p-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+
+/* B */
+
+#B {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#photo-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#photo-1-1 {
+    width: 380px;
+    height: 100%;
+    background-image: url(../img/Main/One/Rectangle\ 6-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease-out;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+#photo-1-1:hover {
+    position: relative;
+    top: -15px;
+    left: -15px;
+    box-shadow: 16px 16px rgb(149, 225, 211);
+    background-image: url(../img/Main/One/Rectangle\ 6-11.png);
+    
+}
+#photo-1-2 {
+    width: 380px;
+    height: 100%;
+    background-image: url(../img/Main/One/Rectangle\ 6-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease-out;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#photo-1-2:hover {
+    position: relative;
+    top: -15px;
+    left: -15px;
+    box-shadow: 16px 16px rgb(149, 225, 211);
+    background-image: url(../img/Main/One/Rectangle\ 6-22.png);
+}
+#photo-1-3 {
+    width: 380px;
+    height: 100%;
+    background-image: url(../img/Main/One/Rectangle\ 6-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease-out;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#photo-1-3:hover {
+    position: relative;
+    top: -15px;
+    left: -15px;
+    box-shadow: 16px 16px rgb(149, 225, 211);
+    background-image: url(../img/Main/One/Rectangle\ 6-33.png);
+} 
+
+/* C */
+
+#C {
+    width: 100%;
+    height: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 225, 211);
+}
+#number {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(181, 234, 224);
+    border-right: 1px solid rgb(181, 234, 224);
+}
+.number {
+    width: 240px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(181, 234, 224);
+}
+.n {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.n-p {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+/*> > > > > > > > > > > > > > >second block< < < < < < < < < < < < < < <*/
+
+/* two */
+
+#two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* D */
+
+#D {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+}
+#D-text {
+    width: 350px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.s1 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+.s2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.line-2 {
+    width: 65px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: 1px;
+    border: 1px solid rgb(233, 36, 10);
+}
+#service {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.service {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+/* .ser-img{
+
+} */
+.text-2 {
+    width: 310px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.ser-h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+}
+.ser-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+#service-line {
+    width: 100%;
+    height: 0.5px;
+    border: 0.5px solid rgba(153, 153, 153, 0.644);
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
